@@ -1,0 +1,336 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #f5f5f5;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+#navbar #left h1{
+    margin: 0px;
+    font-size: 20px;
+}
+#navbar #left h1 span{
+    font-weight: 100;
+}
+#navbar #right ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+    margin: 0px;
+}
+#navbar #right ul li button{
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid darkgrey;
+    width: 80px;
+    height: 40px;
+    font-style:initial;
+}
+#body{
+    text-align: center;
+    margin-top: 250px;
+    padding: ;
+    color: white;
+}
+#body h1{
+    margin-bottom: 0px;
+    font-size: 56px;
+}
+#body p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#body button{
+    color: grey;
+    border-radius: 5px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    margin-right: 20px;
+}
+#body #learn{
+    background-color: transparent;
+    color: white;
+    border: 2px solid darkgrey;
+}
+#intro{
+    color: black;
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 30px;
+    margin-top: 170px;
+}
+#intro h1{
+    color: #646464;
+    font-size: 35px;
+}
+#intro p{
+    color: #89827b;
+    border-top: 2px solid rgb(229,229,229);
+    width: 60%;
+    margin: auto;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+#intro img{
+width: 100%;
+border-radius: 0 0 7px 7px;
+}
+
+#signup{
+    background-color: #e89980;
+    text-align: center;
+    color: #f9e6df;
+    height: 272px;
+}
+#signup h1{
+    font-size: 37px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+#signup p{
+    font-size: 16px;
+    margin-top: -17px;
+    padding-bottom: 26px;
+    margin: auto;
+}
+#signup div button{
+    border-radius: 5px;
+    background-color: white;
+    color: #e89980;
+    padding: 11px 28px;
+    border: none;
+    height: 100%;
+}
+#signup div input{
+    background-color: #eba893;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 28px;
+    width: 197px;
+    height: 100%;
+}
+#input::placeholder{
+    color: white;
+}
+
+#social a{
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    color: #c6c6c6;
+}
+#social{
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #c6c6c6;
+}
+
+#social ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+#social div{
+    padding-top: 30px;
+}
+
+.c1{
+    padding: 0px 10px;
+}
+#icon{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #646464;
+}
+#icon div{
+    display: inline-block;
+    width: 46%;
+    padding-top: 20px;
+}
+
+#icon div h1{
+    font-size: 25px;
+}
+
+#icon div p{
+    font-size: 16px;
+}
+
+#div1{
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    top: 2px;
+    left: 3px;
+}
+#div4{
+    border-top: 2px solid #e5e5e5;
+    border-left: 2px solid #e5e5e5;
+}
+
+#cont{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.fa.fa-bolt{
+    color: white;
+    background-color: #e89980;
+    border-radius: 100%;
+    font-size: 40px;
+    padding: 20px 30px;
+}
+.fa.fa-area-chart{
+    background-color: #7fcdb8;
+    color: white;
+    border-radius: 50%;
+    font-size: 40px;
+    padding: 20px;
+}
+.fa.fa-cloud{
+    background-color: #90b0ba;
+    color: white;
+    border-radius: 100%;
+    font-size: 40px;
+    padding: 20px;
+}
+.fa.fa-lock{
+    background-color: #e5cb95;
+    color: white;
+    border-radius: 100%;
+    font-size: 40px;
+    padding: 20px 30px;
+}
+
+#card{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    color: #646464;
+    margin-top: 30px;
+}
+#card div{
+    width: 48%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+#menu i{
+    display: none;
+}
+#card img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#card div h1{
+    font-size: 25px;
+}
+#card div button{
+    width: 25%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    color: #6a6a6a;
+}
+
+/* //mobile version */
+@media (max-width:600px){
+    body{
+        background-size: 190%;
+        background-position-x: center;
+    }
+    #navbar{
+        display: none;
+    }
+    #menu{
+        display: inline-block;
+        color: white;
+        background-color: rgb(216, 201, 201);
+        padding: 4px 14px;
+        border-radius: 5px;
+        margin: 10px 0px 0px 10px;
+    }
+    #body{
+        width: 80%;
+        /* background-color: black; */
+        margin: auto;
+        margin-top: 0px;
+    }
+    #body h1{
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+    #body p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    #body button{
+        width: 100%;
+        height: 45px;
+        margin-bottom: 20px;
+    }
+    #intro{
+        width: 100%;
+        margin-top: 36px;
+    }
+    #intro h1{
+        font-size: 25px;
+    }
+    #intro p{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+    }
+    br{
+        display: none;
+    }
+    #signup{
+        height: 272px;
+    }
+    #signup h1{
+        font-size: 24px;
+    }
+    #signup div button{
+        padding: 11px 28px;
+        width: 95%;
+        height: 100%;
+    }
+    #signup div input{
+        width: 80%;
+    }
+    #input::placeholder{
+        color: white;
+    }
+}
+
+
